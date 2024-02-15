@@ -5,7 +5,7 @@ public class Stack <T> {
     private int elements = 0;
 
     public Stack() {
-        this.list = (T[]) new Object[10];
+        this.list = (T[]) new Object[2];
     }
     public Stack(int fields) {
         this.list = (T[]) new Object[fields];
